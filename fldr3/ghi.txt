@@ -1,0 +1,1 @@
+When monitors communicate at the same rate as monitors receive events and all monitors are leaders 

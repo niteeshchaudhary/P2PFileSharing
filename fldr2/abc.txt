@@ -1,0 +1,1 @@
+from the same truth-domain. However, the semantics are not equivalent, since the current state of the decentralized monitor can contain several states of the 

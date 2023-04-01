@@ -1,0 +1,10 @@
+The ASCII character set is the most common compatible 
+subset of character sets for English-language text files, 
+and is generally assumed to be the default file format in 
+many situations. It covers American English, but for the 
+British pound sign, the euro sign, or characters used outside English, a richer character set must be used. In many systems, this is chosen based on the default locale setting on the computer it is read on. Prior to UTF-8, this was traditionally single-byte encodings (such as ISO-8859-1 through ISO-8859-16) for European languages and wide character encodings for Asian languages.
+Because encodings necessarily have only a limited repertoire
+ of characters, often very small, many are only usable 
+ to represent text in a limited subset of human languages. 
+ Unicode is an attempt to create a common standard for 
+ representing all known languages, and most known character sets are subsets of the very large Unicode character set. Although there are multiple character encodings available for Unicode, the most common is UTF-8, which has the advantage of being backwards-compatible with ASCII; that is, every ASCII text file is also a UTF-8 text file with identical meaning. UTF-8 also has the advantage that it is easily auto-detectable. Thus, a common operating mode of UTF-8 capable software, when opening files of unknown encoding, is to try UTF-8 first and fall back to a locale dependent legacy encoding when it definitely isn't UTF-8.
