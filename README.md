@@ -25,4 +25,4 @@ A peer-to-peer file transfer application, comprising one manager and multiple pe
 
 (v) On being requested to share a file by another peer, a peer:
  informs the requesting peer of its availability
-[1 mark] transmits the requested fragment(s) of one of its shareable files
+transmits the requested fragment(s) of one of its shareable files
